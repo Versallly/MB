@@ -1,0 +1,13 @@
+{
+    "user": 
+        {   "userName": "versallli",
+            "email": "vitalyivanovprimary1@gmail.com",
+            "pass": "password"
+        },
+    "title":{
+        "main": "HOME | NEXT REALWORLD",
+        "login": "LOGIN | NEXT REALWORLD",
+        "register": "REGISTER | NEXT REALWORLD"
+    }
+}
+  

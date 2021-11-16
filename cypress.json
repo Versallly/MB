@@ -1,1 +1,8 @@
-{}
+{
+    "baseUrl":"https://next-realworld.vercel.app",
+    "env": {
+        "api_login_url": "https://api.realworld.io/api/users/login"
+      },
+    "retries": 1
+}
+
