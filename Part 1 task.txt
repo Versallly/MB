@@ -1,0 +1,33 @@
+Entry criteria:
+- Requirements validation passed, all Requirements issues are resolved
+Some of the potential issues are as follows:
+* What happens at the DB layer? Should we delete the user info or mark as inactive?
+* Is there any confirmation we are sending to the email of deleted user?
+* Can the user register again using the same email/username?
+* Can "system admin" delete all types of users including other system admins?
+etc.
+- Functional Specification is ready
+- Mocks are available
+- Test cases/checklists (positive/negative) are ready
+- Time needed for testing phase is estimated & Exit criteria is defined.
+- Development phase is done & build is stable (smoke test successfully passed)
+- No active major bugs in the functionality which is interfering with this feature request.
+
+- Decision is made which tests should be automated OR Automated tests are already created
+- Test data is ready (credentials for users with all user roles, credentials for users to be deleted)
+- Environment for testing is ready and containing the latest changes from production
+
+Exit criteria:
+100% of tests cases executed 
+Bugs:
+Documented & Prioritized
+Major/Critical 100% fixed & approved
+Medium - 90% fixed & approved
+Low - addressed
+Test summary report is ready and approved
+
+Test cases for automation: (not sure how the feature should look here, since we don't have the requirements or mocks)
+- Search for the user to be deleted
+- Deleting the user
+- Logging in using deleted user credentials
+- Delete the user option is NOT available for NON "system admin" types of users
